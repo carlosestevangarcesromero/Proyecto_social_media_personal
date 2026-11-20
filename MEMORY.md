@@ -2,7 +2,7 @@
 Memoria persistente entre sesiones. **Regla estricta: Máximo 50 líneas.** Resume o purga lo obsoleto al actualizar.
 
 ## Estado actual
-- Fase 0 (Arquitectura): Definición de identidad visual (*Quiet Luxury* + disciplina estoica) y reglas de flujo en `SKILL.md`.
+- Fase 0 (Arquitectura): Definición de identidad visual (*Quiet Luxury* + disciplina estoica) y reglas de flujo en `SKILLS.md`.
 - Pendiente inicializar estructura de carpetas (`assets/raw-photos`, `templates`, `content-queue`, `output`) y stack ligero tras aprobación.
 
 ## Aprendizajes y errores a evitar
