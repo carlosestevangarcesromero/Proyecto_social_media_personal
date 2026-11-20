@@ -3,6 +3,7 @@ Memoria persistente entre sesiones. **Regla estricta: Máximo 50 líneas.** Resu
 
 ## Estado actual
 - Fase 0 (Arquitectura): Definición de identidad visual (*Quiet Luxury* + disciplina estoica) y reglas de flujo en `SKILLS.md`.
+- 2026-11-20: Skills del proyecto en `.claude/skills/` (`social-media-planner`, `canva-content-producer`). Motivo: Claude Code solo carga skills desde esa ruta; impacto: disponibles en cualquier sesión que abra el repo.
 - Pendiente inicializar estructura de carpetas (`assets/raw-photos`, `templates`, `content-queue`, `output`) y stack ligero tras aprobación.
 
 ## Aprendizajes y errores a evitar
@@ -14,6 +15,7 @@ Memoria persistente entre sesiones. **Regla estricta: Máximo 50 líneas.** Resu
 - **Paleta fija de 3 tonos (`#121212`, `#F4F2ED`, `#A68A64`):** Proyecta sobriedad, lujo silencioso y rigor mental sin ruido visual.
 - **Arquitectura desacoplada (HTML/CSS + JSON/MD):** Permite iterar plantillas sin tocar los guiones ni depender de herramientas externas pesadas.
 - **Protocolo de Gatekeeping obligatorio:** Todo código, estrategia o renderizado multimedia requiere planeación previa (por qué, cómo, beneficio) y aprobación explícita antes de ejecutarse.
+- **Ruta de skills `.claude/skills/<nombre>/SKILL.md`:** Elegida sobre `.claudecode/skills.md/` porque es la única que Claude Code reconoce.
 - **Protección de activos:** Nunca modificar `assets/raw-photos/`; exportar todo a `output/` (ignorado en Git).
 
 ## Próximos pasos
